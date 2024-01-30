@@ -1,0 +1,94 @@
+.resul{
+
+font-size: 22px;
+}
+
+body{
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.nomeaplic{
+    font-size: 60px;
+    margin: 10px;
+}
+
+.conteudototal{
+    font-size: 30px;
+    margin: 40vh;
+    border: 15px;
+    display: flex;
+    display: block;
+    padding: 0 20vw;
+}
+
+@media (max-width:1196px){
+    body{
+        display: flex;
+        background-size: cover;
+    }
+
+    .conteudototal{
+        font-size: 30px;
+        margin: 45vh;
+        border: 20px;
+        display: block;
+    }
+
+}
+
+@media (max-width:1669px){
+    body{
+        display: flex;
+        background-size: cover;
+    }
+}
+
+@media (max-width:1997px){
+    body{
+        display: flex;
+        background-size: cover;
+        text-align: center;
+        
+    }
+
+    .operadorsom{
+        display: flex;
+        display: block;
+    }
+}
+
+@media (max-width:1510px){
+
+    .conteudototal{
+        font-size: 30px;
+        margin: 40vh;
+        border: 15px;
+        display: flex;
+        display: block;
+        padding: 0 5vw;
+    }
+}
+
+@media (max-width:1217px){
+    .conteudototal{
+        font-size: 30px;
+        margin: 40vh;
+        border: 15px;
+        display: flex;
+        display: block;
+        padding: 0 1vw;
+    }
+}
+
+@media (max-width:690px){
+
+    .conteudototal{
+        justify-items: center;
+        font-size: 30px;
+        margin: 40vh;
+        border: 15px;
+
+        
+    }
+}

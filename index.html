@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./imag/lg_calcul.png" type="image/x-icon">
+    <script src="./js/index.js"></script>
+    
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="backgro">
+        <div class="conteudototal">
+            <center class="nomeaplic">
+                Calculadora
+            </center>
+            <center>
+                <input type="number" min="1" name="numero1">
+            <select class="operadorsom" id=operador>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+            </select>
+            <input type="number" min="1" class="numero2">
+        <br>
+            <b class="resul" id= "resultado">
+                0
+            </b>
+            <br>
+            <button onclick="calcular()">CALCULAR</button>
+            </center>
+        </div>
+    </div>
+
+   
+</body>
+</html>
